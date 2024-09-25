@@ -23,3 +23,15 @@ The dataset is cleaned and preprocessed to make it suitable for anomaly detectio
 Isolation Forest detects anomalies by isolating observations using random partitioning. It is particularly effective for high-dimensional data.
 ### 2. Local Outlier Factor (LOF)
 LOF identifies anomalies by comparing the local density of a data point to its neighbors. A lower density relative to neighbors indicates an anomaly.
+
+## Visualization
+Several visualization techniques are used to explore the data and visualize detected anomalies:
+
+  Scatter Plot: Shows anomalies in the context of loan amount and EMI.
+  Box Plot: Highlights differences in the EMI distribution for fraud and normal cases.
+  KDE Plot: Shows the distribution of loan amounts for fraud and normal cases.
+
+## Results
+Number of fraud cases detected: The project successfully detects anomalous transactions that are potential fraud cases.
+Visual Insights: Anomalies are highlighted in visual plots, providing an intuitive understanding of fraud patterns.
+
